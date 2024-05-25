@@ -1,7 +1,10 @@
 @media (max-width: 720px){
     #iconegata{
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    #centromexendotop{
+        width: auto;
     }
 
 }
