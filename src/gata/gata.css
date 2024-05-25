@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+
+}
+.gata{
+
+    
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+.gata .le img{
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+}
+.gata .ld img{
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+}
+.gata .le{
+    padding: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.gata .ld{
+    padding: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gata .centro {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px
+}
+.gata .centro img{
+    
+    width: 40%;
+}
+#iconegata{
+
+    animation-name: gata;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#centromexendotop{
+    align-content: start;
+    position: relative;
+    animation-name: gatamexendocentro;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes gatamexendocentro {
+    0% {top: 10px;}
+    50% { top: 100px;}
+    100% {top: 10px;}
+}
+@keyframes gata {
+    0% {rotate: 20deg;}
+    50% { rotate: -20deg;}
+    100%{rotate: 20deg;}
+}
