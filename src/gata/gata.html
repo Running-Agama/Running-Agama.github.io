@@ -17,6 +17,7 @@
         <div class="centro">
             <h1>gata</h1>
             <p>ela não tem nome, se chama gata mesmo</p>
+            <button onclick=musica()>botão pra ligar musica (preguiça de aprender a usar autoplay no mobile)</button>
             <img id="centromexendotop" src="/public/images/gata/gata derrotando o homem.jpeg" alt="">
         </div>
         <div class="ld">
@@ -25,5 +26,12 @@
             <img id= "iconegata"src="/public/images/gata/gataestilosa1.jpeg" alt="">
         </div>
     </div>
+
+    <script>
+        let audio = new Audio("/public/sounds/Maxwell the Cat Theme [TubeRipper.com].flac")
+        function musica(){
+            audio.play()
+        }
+    </script>
 </body>
 </html>
