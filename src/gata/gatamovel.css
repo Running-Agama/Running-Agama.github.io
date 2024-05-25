@@ -1,11 +1,11 @@
 @media (max-width: 720px){
     #iconegata{
-        width: 150px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
     }
-    #centromexendotop{
-        width: auto;
-        position: relative;
+    .gata .centro img{
+        width: 200px;
+        height: 200px;
     }
 
 }
