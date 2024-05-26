@@ -5,6 +5,14 @@
 body{
     background-color: black;
 }
+.txt{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align: center;;
+    flex-direction: column;
+    padding: 0 200px
+}
 .gata{
 
 
@@ -31,7 +39,7 @@ body{
     
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .gata .ld{
     padding: 0px;

@@ -28,7 +28,25 @@
 }
 @media (max-width: 823px){
 
-
+    @keyframes gatamexendocentro {
+        0% {top: 10px;}
+        50% { top: 30px;}
+        100% {top: 10px;}
+    }
+        
+    
+    .gata{
+        display: flex;
+        flex-direction: column;
+    }
+    .gata .le{
+        display: flex;
+        flex-direction: row;
+    }
+    .gata .ld{
+        display: flex;
+        flex-direction: row;
+    }
     #iconegata{
         width: 180px;
         height: 170px;
@@ -42,6 +60,10 @@
 
 @media (max-width: 720px){
 
+    .gata{
+        display: flex;
+        flex-direction: column;
+    }
 
     #iconegata{
         width: 160px;
