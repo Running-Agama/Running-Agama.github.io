@@ -32,7 +32,7 @@
 }
 @media (max-width: 823px){
     .txt{
-        padding: 0 120px
+        padding: 0 110px
     }
 
     @keyframes gatamexendocentro {
@@ -43,6 +43,7 @@
         
     
     .gata{
+        
         width: 750px;
         display: flex;
         flex-direction: column;
@@ -58,8 +59,8 @@
         margin: 10px 100px;
     }
     #iconegata{
-        width: 140px;
-        height: 130px;
+        width: 120px;
+        height: 1px;
     }
     .gata .centro img{
         width: 420px;
@@ -74,21 +75,25 @@
         padding: 0 70px
     }
     .gata .le{
-        margin: 10px 100px;
+    
+        margin: 4px 20px;
     }
     .gata .ld{
-        margin: 10px 100px;
+        margin: 4px 20px;
     }
+
     .gata{
-        height: 700px;
+        width: 200px;
+        height: 600px;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         justify-content: space-evenly;
     }
 
     #iconegata{
-        width: 140px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
     }
     .gata .centro img{
         width: 380px;
