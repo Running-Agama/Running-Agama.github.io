@@ -1,5 +1,7 @@
 @media (max-width: 1119px){
-
+    .txt{
+        padding: 150px
+    }
 
     #iconegata{
         width: 210px;
@@ -15,7 +17,9 @@
 
 @media (max-width: 1003px){
 
-
+    .txt{
+        padding: 120px
+    }
     #iconegata{
         width: 190px;
         height: 180px;
@@ -27,6 +31,9 @@
 
 }
 @media (max-width: 823px){
+    .txt{
+        padding: 120px
+    }
 
     @keyframes gatamexendocentro {
         0% {top: 10px;}
@@ -60,6 +67,9 @@
 
 @media (max-width: 720px){
 
+        .txt{
+        padding: 100px
+    }
     .gata{
         display: flex;
         flex-direction: column;
