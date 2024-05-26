@@ -27,11 +27,11 @@ body{
     height: 200px;
 }
 .gata .le{
-    padding: 0px;
+    padding:  10px;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .gata .ld{
     padding: 0px;
@@ -50,7 +50,7 @@ body{
     padding: 3px
 }
 .gata .centro img{
-    width: 300px;
+    width: auto;
     height: 300px;
     
 }

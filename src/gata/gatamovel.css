@@ -1,11 +1,55 @@
-@media (max-width: 720px){
+@media (max-width: 1119px){
+
+
     #iconegata{
-        width: 140px;
-        height: 140px;
+        width: 210px;
+        height: 200px;
     }
     .gata .centro img{
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 1003px){
+
+
+    #iconegata{
+        width: 190px;
+        height: 180px;
+    }
+    .gata .centro img{
+        width: 450px;
+        height: auto;
+    }
+
+}
+@media (max-width: 823px){
+
+
+    #iconegata{
+        width: 180px;
+        height: 170px;
+    }
+    .gata .centro img{
+        width: 430px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 720px){
+
+
+    #iconegata{
+        width: 160px;
+        height: 150px;
+    }
+    .gata .centro img{
+        width: 380px;
+        height: auto;
     }
 
 }
